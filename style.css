@@ -17,7 +17,8 @@ ul {
     gap: 20px;
     margin-right: 60px;
 }
-a {
+a ,
+.left-below p{
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -27,4 +28,42 @@ a {
     color: #F9FAF8;
     margin-left: 60px;
     font-weight: 900;
+}
+.below{
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px;
+    padding-bottom: 40px;
+    justify-content: center;
+    gap: 35px;
+}
+.left-below {
+    flex: 1;
+    max-width: 350px; /*added a max so they will not take much space same for img*/
+}
+img {
+    flex: 1;
+    max-width: 350px; 
+    border-radius: 4px;
+}
+h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: -10px;
+}
+.below button {
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: #E5E7EB;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    font-weight: 700;
+    border-width: 0px;
+}
+.left-below p {
+    margin-bottom: 5px;
 }
